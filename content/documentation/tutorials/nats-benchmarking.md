@@ -40,13 +40,13 @@ Verify that the NATS server starts successfully, as well as the HTTP monitor:
 
 Thanks to the power of Go, you can either install the `nats-bench` utility in `$GOBIN`:
 ```
-go install $GOPATH/src/github.com/nats-io/nats/examples/nats-bench.go
+go install $GOPATH/src/github.com/nats-io/go-nats/examples/nats-bench.go
 ```
 
 ... or you can simply run it via `go run`:
 
 ```
-go run $GOPATH/src/github.com/nats-io/nats/examples/nats-bench.go
+go run $GOPATH/src/github.com/nats-io/go-nats/examples/nats-bench.go
 ```
 
 For the purpose of this tutorial, we'll assume that you chose the first option, and that you've added `$GOBIN` to your `PATH`. 
